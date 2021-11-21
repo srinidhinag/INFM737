@@ -1,0 +1,213 @@
+
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+.header-img {
+  width: 100%;
+  height: 300px;
+  background: url('coronavirus-hero-goods-food-funds.jpg');;
+  background-size: cover;
+}
+.headerBackground {
+    padding: 5px 0;
+    background-color: rgb(10, 32, 105);
+    height: 5em;
+    width: 100%;
+  } 
+
+menu {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(10, 32, 105);
+    z-index: 2;
+  }
+  list {
+    float: left;
+  }
+   .main_menu{
+    float: left;
+    margin-left: 80px;
+  }
+
+list a {
+    display: block;
+    width: auto;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    border-bottom: 3px solid rgb(197, 197, 197);
+    text-decoration: none;
+    font-family: verdana;
+  }
+  list a:hover {
+    border-bottom: 3px solid gray;
+    color: rgb(184, 184, 184);
+  }
+  list a.active {
+    background-color: rgb(97, 165, 228);
+    border-bottom: white;
+    color: black;
+  }
+
+  a{
+    color:  rgb(10, 32, 105);
+  }
+  #row {
+    padding-top: 50px;
+  }
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+  .column-about {
+     box-shadow: 0 4px 8px 0 rgb(58, 58, 58);
+    font-family: verdana;
+    margin-top: 2em;
+    margin-left: 1em;
+    top: 20em;
+    float: left;
+    width: 50%;
+    height: 20em;
+    padding-left: 10px;
+    padding-right: 10px; 
+  
+    
+  }
+  .about-img{
+    margin-top: 2em;
+    margin-right: 1em;
+    float: right;
+    width: 40%;
+    height: 20em;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px black;
+  
+    }
+  .column-locations {
+   
+   font-family: verdana;
+   margin-top: 2em;
+   margin-left: 1em;
+   top: 20em;
+   float: left;
+   width: 100%;
+   height: 26em;
+   padding-left: 10px;
+   padding-right: 10px;
+   background-color: rgba(97, 165, 228, 0.575);
+  
+   
+ }
+ .column-help {
+ 
+ font-family: verdana;
+ margin-top: 2em;
+ margin-left: 1em;
+ top: 20em;
+ float: left;
+ width: 100%;
+ height: 20em;
+ padding-left: 10px;
+ padding-right: 10px; 
+
+}
+.food-img{
+  margin-top: 2em;
+  margin-right: 1em;
+  float: right;
+  width: 45%;
+  height: 20em;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 2px black;
+
+  }
+
+  
+
+  .heading {
+    text-align: center;
+  }
+
+  img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
+  
+}
+
+
+/*From 603projpage3.html*/
+form {
+  margin: 0 auto;
+  width: 800px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  font: 15px Arial, sans-serif;
+  align-self: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+ 
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+}
+
+input, 
+textarea {
+  
+  font: times new roman;
+
+
+  width: 300px;
+  box-sizing: border-box;
+
+  border: 1px solid #999;
+}
+
+input:focus, 
+textarea:focus {
+ 
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: left;
+
+  height: 5em;
+}
+
+button {
+  padding-left: 10px; 
+  margin-left: 1.0em;
+}
+ .checkboxes input{
+  margin: 0px 0px 0px 0px;
+ }
+
+ .checkboxes label{
+   margin: 0px 20px 0px 3px;
+ }
